@@ -43,7 +43,7 @@ header {
 .navbar {
     max-width: 1100px;
     margin: auto;
-    padding: 20px;
+    padding: 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -290,13 +290,11 @@ footer {
 
 }
 .logo{
-    display:calc(45px);
-    padding: 12px 22px;
+    padding:6px;
     background: var(--accent);
     color: #07111f;
-    font-weight: bold;
     border-radius: 90px;
-    transition: 0.4s;
+    width: 54px;
 }
 .logo:hover{
     transform: translateY(-4px);
